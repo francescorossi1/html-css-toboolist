@@ -1,0 +1,25 @@
+/* Generics */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#logo-header{
+    padding: 10px;
+}
+
+#title{
+    display: inline-block;
+    vertical-align: sub;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+main{
+    background-color: #f6f8f9;
+    height: 800px;
+}
