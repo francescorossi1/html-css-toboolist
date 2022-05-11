@@ -69,42 +69,43 @@ body{
 }
 
 /* list */
- ul{
+ul{
      list-style: none;
- }
+}
 
- h3{
+h3{
      margin-top: 30px;
- }
+}
 
-
-
- .task::before{
+.task::before{
     display: inline-block;
     width: 15px;
     height: 15px;
-    border: 1px solid transparent;
     font-size: 10px;
     text-align: center;
     line-height: 15px;
     vertical-align: middle;
- }
+    border-radius: 50%;
+    margin: 10px;
+}
 
  .done.task::before{
     content: ' \2713';
     color: #008000;
- }
+    border: 1px solid #008000;
+}
 
- .undone.task::before{
+.undone.task::before{
     content: ' \2717';
     color: #ff0000;
- }
+    border: 1px solid #ff0000;
+}
 
 .task-type{
+    color: #fff;
     margin-left: 10px;
     display: inline-block;
     padding: 5px 10px;
-    color: #fff;
 }
 
 .blue{
@@ -117,4 +118,16 @@ body{
 
 .purple{
     background-color: #9d73e4;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.acid-green{
+    background-color: #b0c926;
+}
+
+.aqua{
+    background-color: #64c0a9;
 }
