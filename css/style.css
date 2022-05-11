@@ -1,43 +1,65 @@
 /* Generics */
-*{
+body{
+    background-color: #808080;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* logo */
 #logo-header{
-    padding: 10px;
-}
-
-#title{
-    display: inline-block;
-    vertical-align: sub;
-    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    background-color: #fff;
+    line-height: 70px;
+    padding-left: 20px;
+    margin-bottom: 20px;
 }
 
 #logo{
     vertical-align: middle;
 }
 
-main{
-    background-color: #f6f8f9c4;
-    padding: 50px 150px;
+#title{
+    display: inline;
+    background-color: #fff;
+    vertical-align: middle;
+    font-weight: 900;
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* utilities */
+
+.rounded{
+    border-radius: 5px;
 }
 
 /* main */
+
 .container{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 10px 30px;
     background-color: #fff;
 }
 
-#add-task, #add-section{
+/* buttons */
+
+.add-task, .add-section{
     display: inline-block;
-    margin: 10px;
 }
 
-a{
-    list-style: none;
+
+.section-button{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #808080;
+    border-color: currentColor;
+}
+
+.task-button{
+    padding: 5px 10px;
+    background-color: #45abea;
     color: #fff;
-    background-color: #5f9ea0;
-    border: 3px;
-    border-radius: 50%;
+    border-color: #45abea;
 }
